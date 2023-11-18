@@ -1,8 +1,12 @@
-import React from 'react'
+import Header from "./Header"
 
 const Home = () => {
   return (
-    <div className='titulo'>Home</div>
+    <div style={{
+      zIndex :4
+    }}>
+      <Header/>
+    </div>
   )
 }
 

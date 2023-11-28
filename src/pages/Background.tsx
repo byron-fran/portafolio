@@ -1,6 +1,4 @@
-import React from 'react'
-import { Canvas } from '@react-three/fiber';
-import { Box } from '@react-three/drei';
+
 const Background = () => {
   return (
     <div className="background-container">

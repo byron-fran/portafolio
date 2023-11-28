@@ -1,8 +1,9 @@
 body {
     box-sizing: border-box;
-    font-family: "Dancing Script", cursive;
-    font-family: "Montserrat", sans-serif;
-    font-family: "Roboto", sans-serif;
+  
+    font-family: 'Montserrat', sans-serif;
+
+
     width: 100%;
 }
 
@@ -11,6 +12,7 @@ h2,
 h3,
 h4 {
     margin: 0;
+    font-weight: 300;
 }
 p {
     margin: 0;

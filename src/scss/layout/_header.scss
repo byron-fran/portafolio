@@ -1,17 +1,173 @@
 .header {
     z-index: 4;
+    width: 100%;
 }
 
 .container {
     width: 100%;
-    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 2rem auto 0 auto;
+    padding-bottom: 0;
     z-index: 4;
 }
-.title-animation{
-    color:$white;
-    text-align:center;
-    font-size: 1.3rem;
+.title-animation {
+    color: $white;
+    text-align: center;
+    font-size: 1.2rem;
     z-index: 4;
-    position: absolute;
+    animation-name: title;
+    animation-duration: 3s;
+    width: 100%;
+    font-weight: 300;
+    @include tablet {
+        font-size: 1.5rem;
+    }
+}
+@keyframes title {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.animation__container {
+    display: grid;
+    width: 90%;
+    margin: 1rem auto;
+    justify-content: center;
+    align-items: center;
+    @include tablet {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .animation__flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .animation__lottie {
+        div {
+            margin: 1rem auto;
+            @include tablet {
+                width: 400px;
+            }
+            @include desktop {
+                width: 600px;
+            }
+        }
+    }
+}
+
+.animation__div {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    p {
+        @include tablet {
+            font-weight: 900;
+            font-size: 3rem;
+        }
     
+        @include large_desktop {
+            font-size: 4rem;
+        }
+    }
+    .animation {
+        height: 50px;
+        overflow: hidden;
+        margin-left: 1rem;
+        div {
+            @include tablet {
+                font-size: 1.3rem;
+            }
+            @include large_desktop{
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .animation > div > div {
+        padding: 0.25rem 0.3rem;
+        height: 2.81rem;
+        margin-bottom: 2.81rem;
+        display: inline-block;
+        @include tablet {
+            padding: 0.25rem 0.75rem;
+        }
+    }
+
+    .animation div:first-child {
+        animation: text-animation 8s infinite;
+    }
+
+    .first div {
+        background-color: $indigo;
+        color: $white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h2 {
+            font-weight: 900;
+            text-align: center;
+        }
+    }
+    .second div {
+        background-color: $blue;
+        color: $white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h2 {
+            font-weight: 900;
+            text-align: center;
+        }
+    }
+    .third div {
+        background-color: $green;
+        color: $white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h2 {
+            font-weight: 900;
+            text-align: center;
+        }
+    }
+
+    @keyframes text-animation {
+        0% {
+            margin-top: 0;
+        }
+        10% {
+            margin-top: 0;
+        }
+        20% {
+            margin-top: -5.62rem;
+        }
+        30% {
+            margin-top: -5.62rem;
+        }
+        40% {
+            margin-top: -11.24rem;
+        }
+        60% {
+            margin-top: -11.24rem;
+        }
+        70% {
+            margin-top: -5.62rem;
+        }
+        80% {
+            margin-top: -5.62rem;
+        }
+        90% {
+            margin-top: 0;
+        }
+        100% {
+            margin-top: 0;
+        }
+    }
 }

@@ -1,4 +1,4 @@
-import { Canvas, } from '@react-three/fiber'
+// import { Canvas, } from '@react-three/fiber'
 
 import CardProyect from './CardProyect'
 const Proyects = () => {

@@ -6,11 +6,12 @@ interface ProyectProps {
     urlGitGub: string,
     urlWeb?: string,
     image: string,
+    urlAndroid? : string,
     direction? : string
 }
 
 
-const CardProyect: React.FC<ProyectProps> = ({ title, description, urlGitGub, urlWeb, image, direction }) => {
+const CardProyect: React.FC<ProyectProps> = ({ title, description, urlGitGub, urlWeb, image, direction, urlAndroid }) => {
     return (
         <div className="proyect__card" style={{flexDirection :  direction ? 'row-reverse' : 'row'}}>
             <img src={`${image}`} alt="img-proyect" className="proyect__image" />
@@ -24,6 +25,11 @@ const CardProyect: React.FC<ProyectProps> = ({ title, description, urlGitGub, ur
                     {urlWeb && (
                         <NavLink to={`${urlWeb}`}>
                             <img height='45px' src="/icons/web.svg" alt="img-icon" className='proyect__icon' />
+                        </NavLink>
+                    )}
+                {urlAndroid && (
+                        <NavLink to={`${urlAndroid}`}>
+                            <img height='45px' src="/icons/androide.png" alt="img-icon" className='proyect__icon' />
                         </NavLink>
                     )}
 

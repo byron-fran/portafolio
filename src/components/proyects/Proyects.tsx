@@ -33,10 +33,22 @@ const Proyects = () => {
                         urlWeb='https://chimerical-taffy-75180b.netlify.app/'
                         direction='row-reverse'
                     />
+          
                 </div>
             </section>
             {/* End section */}
-
+            <section className='container__proyect'>
+            <h2 className='title__proyect'>Proyects with react native for android</h2>
+                <div className="proyect__grid">
+                <CardProyect
+                        image='/proyects/android/presupuesto.png'
+                        title='presupuesto App'
+                        urlAndroid='https://www.mediafire.com/file/0am6c8uf93lc476/presupuestoApp.apk/file'
+                        description='It is an application for Android, which is used to calculate the budget spent'
+                        urlGitGub='https://github.com/byron-fran/App-Android-Presupuesto'
+                    />
+                </div>
+            </section>
             <section>
                 {/* <Canvas>
                     <ambientLight intensity={0.1} />

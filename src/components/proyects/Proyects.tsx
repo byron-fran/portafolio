@@ -4,12 +4,12 @@ import CardProyect from './CardProyect'
 const Proyects = () => {
 
     return (
-        <main>
+        <main className='main__proyect'>
             <section className='container__proyect'>
                 <h2 className='title__proyect'>Proyects with react</h2>
                 <div className="proyect__grid">
                     <CardProyect
-                        image='/proyects/recetas.png'
+                        image='/proyects/bebidas.png'
                         description='It is a small app to search for drink recipes and uses an API to consult the recipes'
                         title='App recipes drinks'
                         urlGitGub='https://github.com/byron-fran/App_Bebidas_react'
@@ -25,18 +25,27 @@ const Proyects = () => {
                         direction='row-reverse'
                         
                     />
+                    <CardProyect
+                        image='/proyects/prestamo.png'
+                        title='Prestamos'
+                        description='It is a mini-app that calculates the total amount of interest when making a loan'
+                        urlGitGub='https://github.com/byron-fran/app-presupuesto'
+                        urlWeb='https://chimerical-taffy-75180b.netlify.app/'
+                        direction='row-reverse'
+                    />
                 </div>
             </section>
             {/* End section */}
+
             <section>
-                <Canvas>
+                {/* <Canvas>
                     <ambientLight intensity={0.1} />
                     <directionalLight color="red" position={[0, 0, 5]} />
                     <mesh>
                         <boxGeometry />
                         <meshStandardMaterial />
                     </mesh>
-                </Canvas>
+                </Canvas> */}
             </section>
 
 

@@ -15,7 +15,7 @@ const CardProyect: React.FC<ProyectProps> = ({ title, description, urlGitGub, ur
         <div className="proyect__card" style={{flexDirection :  direction ? 'row-reverse' : 'row'}}>
             <img src={`${image}`} alt="img-proyect" className="proyect__image" />
             <div className="proyect__info" >
-                <h2>{title}</h2>
+                <h2 className="proyect__title">{title}</h2>
                 <p className='proyect__paragraph'>{description}</p>
                 <div className='proyect__links'>
                     <NavLink to={`${urlGitGub}`}>

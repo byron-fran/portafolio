@@ -16,14 +16,14 @@ const Proyects = () => {
                         urlWeb='https://peppy-daffodil-64026f.netlify.app/'
                     />
                     {/* Card */}
-                    <CardProyect 
+                    <CardProyect
                         image='/proyects/tecno.png'
                         title='Tecno store'
                         description="It's a small laptop store. It is made with useContext for global state, useReducer, react-router-dom and pure css"
                         urlGitGub='https://github.com/byron-fran/E-commerce-laptops'
                         urlWeb='https://e-commerce-laptops.vercel.app/'
                         direction='row-reverse'
-                        
+
                     />
                     <CardProyect
                         image='/proyects/prestamo.png'
@@ -33,19 +33,31 @@ const Proyects = () => {
                         urlWeb='https://chimerical-taffy-75180b.netlify.app/'
                         direction='row-reverse'
                     />
-          
+
                 </div>
             </section>
             {/* End section */}
             <section className='container__proyect'>
-            <h2 className='title__proyect'>Proyects with react native for android</h2>
+                <h2 className='title__proyect'>Proyects with react native for android</h2>
                 <div className="proyect__grid">
-                <CardProyect
+                    <CardProyect
                         image='/proyects/android/presupuesto.png'
                         title='presupuesto App'
                         urlAndroid='https://www.mediafire.com/file/0am6c8uf93lc476/presupuestoApp.apk/file'
                         description='It is an application for Android, which is used to calculate the budget spent'
                         urlGitGub='https://github.com/byron-fran/App-Android-Presupuesto'
+                    />
+                </div>
+            </section>
+            {/* Proyects with django */}
+            <section className='container__proyect'>
+                <h2 className='title__proyect'>Proyects with Django</h2>
+                <div className="proyect__grid">
+                    <CardProyect
+                    image='/proyects/Django1.png'
+                    title='App Task'
+                    urlGitGub='https://github.com/byron-fran/App-Django_Task'
+                    description='It is a full-stack web application and handles a CRUD of tasks and has authentication'
                     />
                 </div>
             </section>

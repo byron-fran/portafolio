@@ -33,6 +33,13 @@ const Proyects = () => {
                         urlWeb='https://chimerical-taffy-75180b.netlify.app/'
                         direction='row-reverse'
                     />
+                    <CardProyect
+                        image='/proyects/Redux-Task.png'
+                        description='It is a task application. a CRUD and uses redux, tailwindcss and localStorage'
+                        urlGitGub='https://github.com/byron-fran/App_Tareas_redux_React'
+                        urlWeb='https://spiffy-halva-d19f74.netlify.app/'
+                        title='Task-App'
+                    />
 
                 </div>
             </section>

@@ -8,11 +8,11 @@ function App() {
 
   return (
     <>
-      <Background/>
-     <div style={{position: 'relative'}}>
-        <Home/>
-     </div>
-    
+      <Background />
+      <div style={{ position: 'relative' }}>
+        <Home />
+      </div>
+
     </>
   )
 }

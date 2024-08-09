@@ -22,77 +22,77 @@ const Tecnologies = () => {
         {/* End div field */}
         <div className="tecno__field">
 
-          <img src="/images/csharp-original.svg" alt="image tecnology" className="tecno__image" />
+          <img src="/images/csharp.svg" alt="image tecnology" className="tecno__image" />
         </div>
         {/* End div field */}
         <div className="tecno__field">
 
-          <img src="/images/css3-original-wordmark.svg" alt="image tecnology" className="tecno__image" />
+          <img src="/images/css.svg" alt="image tecnology" className="tecno__image" />
         </div>
         {/* End div field */}
         <div className="tecno__field">
 
-          <img src="/images/javascript-original.svg" alt="image tecnology" className="tecno__image" />
+          <img src="/images/javascript.svg" alt="image tecnology" className="tecno__image" />
         </div>
         {/* End div field */}
         <div className="tecno__field">
 
-          <img src="/images/mongodb-original-wordmark.svg" alt="image tecnology" className="tecno__image" />
+          <img src="/images/mongodb.svg" alt="image tecnology" className="tecno__image" />
         </div>
         {/* End div field */}
         <div className="tecno__field">
 
-          <img src="/images/mysql-original-wordmark.svg" alt="image tecnology" className="tecno__image" />
+          <img src="/images/mysql.svg" alt="image tecnology" className="tecno__image" />
         </div>
         {/* End div field */}
         <div className="tecno__field">
 
-          <img src="/images/nodejs-original-wordmark.svg" alt="image tecnology" className="tecno__image" />
+          <img src="/images/nodejs.svg" alt="image tecnology" className="tecno__image" />
         </div>
         {/* End div field */}
         <div className="tecno__field">
 
-          <img src="/images/php-original.svg" alt="image tecnology" className="tecno__image" />
+          <img src="/images/php.svg" alt="image tecnology" className="tecno__image" />
         </div>
         {/* End div field */}
         <div className="tecno__field">
 
-          <img src="/images/python-original.svg" alt="image tecnology" className="tecno__image" />
+          <img src="/images/python.svg" alt="image tecnology" className="tecno__image" />
         </div>
         {/* End div field */}
         <div className="tecno__field">
 
-          <img src="/images/react-original-wordmark.svg" alt="image tecnology" className="tecno__image" />
+          <img src="/images/react.svg" alt="image tecnology" className="tecno__image" />
         </div>
         {/* End div field */}
         <div className="tecno__field">
 
-          <img src="/images/redux-original.svg" alt="image tecnology" className="tecno__image" />
+          <img src="/images/redux.svg" alt="image tecnology" className="tecno__image" />
         </div>
         {/* End div field */}
         <div className="tecno__field">
 
-          <img src="/images/sass-original.svg" alt="image tecnology" className="tecno__image" />
+          <img src="/images/sass.svg" alt="image tecnology" className="tecno__image" />
         </div>
         {/* End div field */}
         <div className="tecno__field">
 
-          <img src="/images/typescript-original.svg" alt="image tecnology" className="tecno__image" />
+          <img src="/images/typescript.svg" alt="image tecnology" className="tecno__image" />
         </div>
         {/* End div field */}
         <div className="tecno__field">
 
-          <img src="/images/vuejs-original-wordmark.svg" alt="image tecnology" className="tecno__image" />
+          <img src="/images/vuejs.svg" alt="image tecnology" className="tecno__image" />
         </div>
         {/* End div field */}
         <div className="tecno__field">
 
-          <img src="/images/html5-original-wordmark.svg" alt="image tecnology" className="tecno__image" />
+          <img src="/images/html.svg" alt="image tecnology" className="tecno__image" />
         </div>
         {/* End div field */}
         <div className="tecno__field">
 
-          <img src="/images/tailwindcss-icon.svg" alt="image tecnology" className="tecno__image" />
+          <img src="/images/tailwindcss.svg" alt="image tecnology" className="tecno__image" />
         </div>
         {/* End div field */}
       </div>

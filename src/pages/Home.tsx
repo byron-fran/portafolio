@@ -9,8 +9,8 @@ const Home = () => {
     <div style={{ position: 'relative', width: '100%' }}>
       <Header />
       <About />
-      <Tecnologies />
       <Proyects />
+      <Tecnologies />
     </div>
   )
 }

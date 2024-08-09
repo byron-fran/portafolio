@@ -84,8 +84,8 @@ const Proyects = () => {
                         image='/proyects/TodoApp.webp'
                         title='TodoApp'
                         // !todo add url deploy
-                        urlGitGub='https://github.com/byron-fran/App-Django_Task'
-                        description='It is a full-stack web application and handles a CRUD of tasks and has authentication'
+                        urlGitGub='https://github.com/byron-fran/Todo-App'
+                        description='It is a simple app to create notes and mark them as completed. It has authentication so that the user can save their notes in a database.'
                         technologies={['python', 'django', 'djangorest', 'angular', 'angular-material', 'mysql']}
 
                     />
@@ -94,7 +94,7 @@ const Proyects = () => {
                         title='Dev Store'
                         // !todo add url deploy
                         urlGitGub='https://github.com/byron-fran/Dev-Store-Django'
-                        description='It is a full-stack web application and handles a CRUD of tasks and has authentication'
+                        description='It is a store for programmers where they can buy products such as: t-shirts, caps, mugs, and much more.'
                         technologies={['python', 'django', 'tailwindcss', 'mysql']}
 
                     />

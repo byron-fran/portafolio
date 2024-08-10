@@ -8,7 +8,7 @@ const About = () => {
           <div className="about__field">
             <h2 className='about__title'>About me</h2>
             <p className='about__information'>
-            Hello! I am a passionate web developer in constant search for knowledge in the latest technologies. With experience in both web and mobile development, I have carried out projects that have strengthened my skills in areas such as React native, Django, Node js, Express, Typescrip etc. My focus is to continue learning and applying these skills to create innovative and efficient solutions. I'm excited about the opportunities the tech world has to offer and eager to contribute my experience to new projects!
+            Hello! I am a passionate web developer in constant search for knowledge in the latest technologies. With experience in both web and mobile development, I have carried out projects that have strengthened my skills in areas such as Python, Typescript, Kotlin etc. My focus is to continue learning and applying these skills to create innovative and efficient solutions. I'm excited about the opportunities the tech world has to offer and eager to contribute my experience to new projects!
             </p>
           </div>
           <div className="about__field">

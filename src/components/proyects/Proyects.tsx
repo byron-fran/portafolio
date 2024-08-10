@@ -86,7 +86,7 @@ const Proyects = () => {
                         urlWeb='https://countries-app-six-lake.vercel.app/#/countries'
                         description='It is an app that shows all countries from a rest api. It has pagination, search bar and a section to save favorites using localstorage'
                         urlGitGub='https://github.com/byron-fran/countries-App'
-                        technologies={['angular','tailwindcss', 'primeng']}
+                        technologies={['angular','rxjs','tailwindcss', 'primeng']}
 
                     />
                     {/* Proyects with django */}
@@ -96,7 +96,7 @@ const Proyects = () => {
                         // !todo add url deploy
                         urlGitGub='https://github.com/byron-fran/Todo-App'
                         description='It is a simple app to create notes and mark them as completed. It has authentication so that the user can save their notes in a database.'
-                        technologies={['python', 'django', 'djangorest', 'angular', 'angular-material', 'mysql']}
+                        technologies={['python', 'django', 'django-rest', 'angular', 'angular-material', 'mysql']}
 
                     />
                     <CardProyect

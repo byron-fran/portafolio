@@ -10,92 +10,91 @@ const Tecnologies = () => {
           'Languages and frameworks, what to usually use',
           1000
         ]
-      }
-      className='tecno__title'
-      speed={50}
+        }
+        className='tecno__title'
+        speed={50}
       />
       <div className="tecno__grids">
-        <div className="tecno__field">
-
-          <img src="/images/django.svg" alt="image tecnology" className="tecno__image" />
+        <div>
+          <h2>Backend</h2>
+          <div className='tecno__field'>
+            {['django', 'django-rest', 'express', 'nestjs'].map((tec, index) => (
+              <div key={index} >
+                <img width={20} height={20} src={`/images/${tec}.svg`} alt={`${tec}-logo`} />
+                <p >{tec.toUpperCase()}</p>
+              </div>
+            ))}
+          </div>
         </div>
-        {/* End div field */}
-        <div className="tecno__field">
 
-          <img src="/images/csharp.svg" alt="image tecnology" className="tecno__image" />
-        </div>
-        {/* End div field */}
-        <div className="tecno__field">
+        <div>
+          <h2>Frontend</h2>
+          <div className='tecno__field'>
+            {['react', 'nextjs', 'angular', 'tailwindcss'].map((tec, index) => (
+              <div key={index} >
+                <img width={20} height={20} src={`/images/${tec}.svg`} alt={`${tec}-logo`} />
+                <p>{tec.toUpperCase()}</p>
+              </div>
 
-          <img src="/images/css.svg" alt="image tecnology" className="tecno__image" />
+            ))}
+          </div>
         </div>
-        {/* End div field */}
-        <div className="tecno__field">
+        {/* end tecnologies */}
+        <div>
+          <h2>Android</h2>
+          <div className='tecno__field'>
+            {['react-native', 'expo', 'kotlin',].map((tec, index) => (
+              <div key={index}>
+                <img width={20} height={20} src={`/images/${tec}.svg`} alt={`${tec}-logo`} />
+                <p>{tec.toUpperCase()}</p>
+              </div>
 
-          <img src="/images/javascript.svg" alt="image tecnology" className="tecno__image" />
+            ))}
+          </div>
         </div>
-        {/* End div field */}
-        <div className="tecno__field">
+        {/* end tecnologies */}
+        {/* Databases and ORMS */}
+        <div>
+          <h2>Databases and ORMS</h2>
+          <div className='tecno__field'>
+            {['postgresql', 'mysql', 'mongodb', 'sequelize', 'prisma', 'mongoose'].map((tec, index) => (
+              <div key={index} >
+                <img width={20} height={20} src={`/images/${tec}.svg`} alt={`${tec}-logo`} />
+                <p >{tec.toUpperCase()}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+        {/* end tecnologies */}
+        {/* end tecnologies */}
+        <div>
+          <h2>Dev tools</h2>
+          <div className='tecno__field'>
+            {['vscode', 'figma', 'android-studio', 'postman', 'dbeaver', 'mongodb-compass'].map((tec, index) => (
+              <div key={index} >
+                <img width={20} height={20} src={`/images/tools/${tec}.svg`} alt={`${tec}-logo`} />
+                <p>{tec.toUpperCase()}</p>
+              </div>
 
-          <img src="/images/mongodb.svg" alt="image tecnology" className="tecno__image" />
+            ))}
+          </div>
         </div>
-        {/* End div field */}
-        <div className="tecno__field">
+        {/* end tecnologies */}
+        {/* end tecnologies */}
+        <div>
+          <h2>programming languages</h2>
+          <div className='tecno__language'>
 
-          <img src="/images/mysql.svg" alt="image tecnology" className="tecno__image" />
-        </div>
-        {/* End div field */}
-        <div className="tecno__field">
+            <p style={{ background: '#1e40af', }}>Typescript</p>
+            <p style={{ background: '#075985', }}>Python</p>
+            <p style={{ background: '#6b21a8', }}>Kotlin</p>
 
-          <img src="/images/nodejs.svg" alt="image tecnology" className="tecno__image" />
+          </div>
         </div>
-        {/* End div field */}
-        <div className="tecno__field">
+        {/* end tecnologies */}
 
-          <img src="/images/php.svg" alt="image tecnology" className="tecno__image" />
-        </div>
-        {/* End div field */}
-        <div className="tecno__field">
-
-          <img src="/images/python.svg" alt="image tecnology" className="tecno__image" />
-        </div>
-        {/* End div field */}
-        <div className="tecno__field">
-
-          <img src="/images/react.svg" alt="image tecnology" className="tecno__image" />
-        </div>
-        {/* End div field */}
-        <div className="tecno__field">
-
-          <img src="/images/redux.svg" alt="image tecnology" className="tecno__image" />
-        </div>
-        {/* End div field */}
-        <div className="tecno__field">
-
-          <img src="/images/sass.svg" alt="image tecnology" className="tecno__image" />
-        </div>
-        {/* End div field */}
-        <div className="tecno__field">
-
-          <img src="/images/typescript.svg" alt="image tecnology" className="tecno__image" />
-        </div>
-        {/* End div field */}
-        <div className="tecno__field">
-
-          <img src="/images/vuejs.svg" alt="image tecnology" className="tecno__image" />
-        </div>
-        {/* End div field */}
-        <div className="tecno__field">
-
-          <img src="/images/html.svg" alt="image tecnology" className="tecno__image" />
-        </div>
-        {/* End div field */}
-        <div className="tecno__field">
-
-          <img src="/images/tailwindcss.svg" alt="image tecnology" className="tecno__image" />
-        </div>
-        {/* End div field */}
       </div>
+
     </div>
   )
 }

@@ -51,7 +51,7 @@ const Proyects = () => {
                         description='It is a complete ecommerce for electronic products. It has authentication, filters, pagination, and a payment method with Stripe. It is also available for Android.'
                         urlGitGub='https://github.com/byron-fran/CyberNook'
                         urlWeb='https://cyber-nook-8wwr.vercel.app/'
-                      // !todo add url apk android
+                        // !todo add url apk android
                         title='Cybernook'
                         technologies={['react', 'react-native', 'redux', 'tailwindcss', 'nodejs', 'express', 'postgresql', 'sequelize']}
 
@@ -71,14 +71,24 @@ const Proyects = () => {
                         image='/proyects/android/presupuesto.png'
                         title='presupuesto App'
                         // !todo add url web
-                 
+
                         urlAndroid='https://www.mediafire.com/file/0am6c8uf93lc476/presupuestoApp.apk/file'
                         description='It is an application for Android, which is used to calculate the budget spent'
                         urlGitGub='https://github.com/byron-fran/App-Android-Presupuesto'
                         technologies={['react-native',]}
 
                     />
+                    {/* Projects whith angular */}
 
+                    <CardProyect
+                        image='/proyects/countries-app-1.webp'
+                        title='Countries app'
+                        urlWeb='https://countries-app-six-lake.vercel.app/#/countries'
+                        description='It is an app that shows all countries from a rest api. It has pagination, search bar and a section to save favorites using localstorage'
+                        urlGitGub='https://github.com/byron-fran/countries-App'
+                        technologies={['angular','tailwindcss', 'primeng']}
+
+                    />
                     {/* Proyects with django */}
                     <CardProyect
                         image='/proyects/TodoApp.webp'
@@ -107,6 +117,7 @@ const Proyects = () => {
                         technologies={['python', 'django']}
 
                     />
+
 
                 </div>
 

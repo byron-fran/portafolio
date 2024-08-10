@@ -8,11 +8,13 @@ interface ProyectProps {
     image: string,
     urlAndroid?: string,
     direction?: string,
-    technologies : string[]
+    technologies : string[],
+    iconWidth? : number,
+    iconHeight? : number
 }
 
 
-const CardProyect: React.FC<ProyectProps> = ({ title, description, urlGitGub, urlWeb, image, direction, urlAndroid, technologies }) => {
+const CardProyect: React.FC<ProyectProps> = ({ title, description, urlGitGub, urlWeb, image, direction, urlAndroid, technologies, iconHeight = 35, iconWidth=35 }) => {
 
     return (
 
@@ -47,7 +49,7 @@ const CardProyect: React.FC<ProyectProps> = ({ title, description, urlGitGub, ur
             <div className="proyect__technologies">
         
                   {technologies.map(( tec, i) => (
-                    <img key={i}  width={35} height={35} style={{objectFit : 'contain'}} src={`/images/${tec}.svg`} alt={`icon-${tec}`} />
+                    <img key={i}  width={iconWidth} height={iconHeight} style={{objectFit : 'contain'}} src={`/images/${tec}.svg`} alt={`icon-${tec}`} />
                   ))}
 
             </div>
